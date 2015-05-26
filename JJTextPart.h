@@ -6,6 +6,8 @@
 //  Copyright (c) 2015年 KimBox. All rights reserved.
 //
 
+
+
 #import <Foundation/Foundation.h>
 
 @interface JJTextPart : NSObject
@@ -18,5 +20,8 @@
 
 /** NSInteger*/
 @property(nonatomic,assign)NSInteger index;
+
+/**被正则规则出来的单词吗?*/
+@property(nonatomic,assign)BOOL isRegular;
 
 @end
